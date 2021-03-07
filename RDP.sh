@@ -23,13 +23,13 @@ sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
 sudo apt -y install obs-studio
 sudo apt -y install firefox
-sudo adduser ALOK chrome-remote-desktop
+sudo adduser VENOM chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Completed " >&2 ||
 printf "\nError Occured " >&2
 printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debian Linux And Paste Down\n'
 read -p "Paste Here: " CRP
-su - ALOK -c """$CRP"""
+su - VENOM -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ \n'
 printf 'Your SUDO Pasword Is 4321 \n'
 printf 'Terminal issue solve - https://youtu.be/XZxxaNWJxT0'
