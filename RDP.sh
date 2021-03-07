@@ -1,9 +1,9 @@
 #! /bin/bash
 printf "Check Out My Channel While Waiting- https://youtu.be/VeO22kIvZOQ" >&2
 {
-sudo useradd -m ALOK
-sudo adduser ALOK sudo
-echo 'ALOK:8426' | sudo chpasswd
+sudo useradd -m VENOM
+sudo adduser VENOM sudo
+echo 'VENOM:4321' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt-get update
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
@@ -31,5 +31,5 @@ printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debia
 read -p "Paste Here: " CRP
 su - ALOK -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ \n'
-printf 'Your SUDO Pasword Is 8426 \n'
+printf 'Your SUDO Pasword Is 4321 \n'
 printf 'Terminal issue solve - https://youtu.be/XZxxaNWJxT0'
